@@ -13,7 +13,7 @@ IO mapping notes going from Lolin ESP8266 to ESP32 C3 Mini.
 | CS       | GPIO15/D8     | LOW        | LOW      | IO5/A5            | IE	        |          |       |
 | ADC      | A0            |            |          | IO3/A3		         | IE         |          |       |
 | RST      | RST           | 10k PU     | LOW	     | EN	               | 10k PU     | LOW	     | 1uF cap to GND on the Wemos ESP32-C3 |
-|          | GPIO2/D4      | HIGH       | HIGH     | IO6               | IE	        |          |       |
+| LED      | GPIO2/D4      | HIGH       | HIGH     | IO6               | IE	        |          |       |
 | WAKE     | GPIO16/D0     | 12k pullup	| x        | IO2               | IE, 10k PU | HIGH     |	     |
 
 IE = input enabled
